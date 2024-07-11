@@ -3,4 +3,4 @@ from html_sanitizer import Sanitizer
 def sanitize_html(content):
     sanitizer = Sanitizer()
     
-    return sanitizer.saniti
+    return sanitizer.sanitize(content)
